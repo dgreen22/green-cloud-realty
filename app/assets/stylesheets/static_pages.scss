@@ -1,0 +1,22 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hero{
+	padding-top: 10%;
+	min-height: 700px;
+	text-align: center;
+	background: url(pic1.jpeg) no-repeat;
+	background-size: cover;
+	padding: 10% 25% 0;
+}
+
+.logo{
+	opacity: 0.5;
+}
+
+@media (min-width: 1500px){
+	.hero{
+		min-height: 1050px;
+	}
+}
