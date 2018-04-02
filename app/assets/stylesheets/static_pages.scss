@@ -4,19 +4,15 @@
 
 .hero{
 	padding-top: 10%;
-	min-height: 700px;
+	height: 100vh;
 	text-align: center;
 	background: url(pic1.jpeg) no-repeat;
 	background-size: cover;
+	background-position: center;
 	padding: 10% 25% 0;
 }
 
 .logo{
 	opacity: 0.5;
-}
-
-@media (min-width: 1500px){
-	.hero{
-		min-height: 1050px;
-	}
+	margin: auto;
 }
